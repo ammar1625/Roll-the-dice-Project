@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles.css" rel="stylesheet">
+    <title>Roll The Dice</title>
+</head>
+<body>
+
+    <div class="players-container">
+
+        <!--player 1 container-->
+        <div class="players player1">
+            <div class="total-container">
+                <h1 class="player-name">Player 1 </h1>
+                <h1 class="player1-total-score">0 </h1>
+            </div>
+
+
+            <div class="current-score-container">
+
+                <h3 class="current">Current</h3>
+                <h3 class="player-current-score player1-current-score">0</h3>
+
+            </div>
+        </div>
+
+        
+
+             <!--player 2 container-->
+        <div class="players player2">
+
+            <div class="total-container">
+                <h1 class="player-name">Player 2 </h1>
+                <h1 class="player2-total-score">0 </h1>
+                
+            </div>
+          
+
+            <div class="current-score-container">
+
+                <h3 class="current">Current</h3>
+                <h3 class="player-current-score player2-current-score">0</h3>
+
+            </div>
+        </div>
+
+        <!--Overlay container-->
+        <div class="overlay"></div>
+
+        <!--The Div on the top -->
+        <div class="controls-buttons-container">
+
+            <div class="upper">
+                <button class="btn new-game-btn">♻️ New Game</button>
+                <img src="6.png" class="dice-pic">
+            </div>
+
+            <div class="bottom">
+                <button class="btn roll-dice-btn">🎲 ROLL DICE</button>
+                <button class="btn hold-btn">&#x1F579; HOLD</button>
+                
+            </div>
+
+        </div>
+
+        <!--the overlay shadow effect-->
+        <div class="winner-overlay"></div>
+
+        <!--winner message container-->
+        <div class="winner-message-container">
+            
+                <h1 class="winner-name">🎉🎊🎈???</h1>
+                <button class="close-btn">CLOSE</button>
+            
+        </div>
+        
+
+
+    </div>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
